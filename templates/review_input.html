@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enter Review</title>
+    <link rel="stylesheet" href="static\style.css">
+</head>
+<body>
+    <div class="review-section">
+        <img src="static/internet.jpg" alt="Project Background" class="intro-image">
+        <p>Provide a review to analyze its authenticity and sentiment.</p>
+        <form action="/analyze-review" method="POST">
+            <textarea name="review-input" rows="5" cols="50" placeholder="Type your review here..." class="review-textarea"></textarea>
+            <br>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

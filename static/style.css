@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.intro-image {
+    max-width: 40%;
+    height: auto;
+}
+
+.intro-text {
+    max-width: 50%;
+    text-align: left;
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+.input-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.input-button:hover {
+    background-color: #45a049;
+}
+.review-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #ffffff; /* White background for clarity */
+    padding: 20px;
+}
+
+.review-section h2 {
+    font-size: 2rem;
+    color: #4CAF50; /* Green heading color */
+}
+
+.review-section p {
+    font-size: 1.2rem;
+    color: #333; /* Black text for readability */
+    margin-bottom: 20px;
+}
+
+.review-textarea {
+    width: 60%;
+    max-width: 600px;
+    height: 100px;
+    padding: 10px;
+    border: 2px solid #4CAF50; /* Green border */
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+}
+
+.review-textarea:focus {
+    border-color: #9370db; /* Lilac border when focused */
+    box-shadow: 0 0 5px rgba(147, 112, 219, 0.5);
+}
+
+.submit-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #9370db; /* Lilac background */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.submit-button:hover {
+    background-color: #8458b3; /* Darker lilac on hover */
+}
+.result-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+    background-color: #f9f9f9; /* Light gray background for subtle contrast */
+    padding: 20px;
+}
+
+.result-section h1 {
+    font-size: 2.5rem;
+    color: #4CAF50; /* Green for the main heading */
+    margin-bottom: 20px;
+}
+
+.result-section p {
+    font-size: 1.5rem;
+    color: #333; /* Black for text readability */
+    margin: 10px 0;
+}
+
+.result-section .result-label {
+    font-weight: bold;
+    color: #4CAF50; /* Green for result labels */
+}
+
+.result-section a {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 10px 20px;
+    background-color: #9370db; /* Lilac for the button */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.result-section a:hover {
+    background-color: #8458b3; /* Darker lilac for hover effect */
+}
+
+.result-section .error-message {
+    color: #ff0000; /* Red for error messages */
+    font-size: 1.2rem;
+    margin-top: 15px;
+}
