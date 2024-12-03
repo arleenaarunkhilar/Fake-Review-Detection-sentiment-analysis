@@ -1,2 +1,2 @@
 # Fake-Review-Detection-sentiment-analysis
-a fake review detection model trained along with a sentiment analyzing model to check and combat fraudulent review descriptions/ generated fake reviews.
+The Fake Review Detector with Sentiment Analysis project successfully addresses two critical aspects of online review systems: detecting fraudulent reviews and analyzing the sentiment of genuine reviews. 
